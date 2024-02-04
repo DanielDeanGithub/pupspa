@@ -14,8 +14,8 @@ body {
     grid-column: 1 / span 6;
   }
   
-  header {
-  
+  header, .about, .box, .testimonial, footer {
+    display: grid;
   }
   
   .title {
@@ -48,8 +48,7 @@ body {
   }
   
   .about {
-    background-color: #f0f0f0;
-  
+    background-color: #f0f0f0;  
   }
   
   .text {
